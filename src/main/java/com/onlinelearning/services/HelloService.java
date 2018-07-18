@@ -13,5 +13,6 @@ import com.onlinelearning.models.Student;
  */
 public interface HelloService {
 	public List<Student> getHello();
-	public boolean insertStudent(Student student);
+	public boolean insertStudent(String json);
 }
+	
